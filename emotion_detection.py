@@ -29,8 +29,9 @@ def emotion_detector(text_to_analyze):
     else:
         dname = 'sadness'
 
-    # construct dictionary for return value    ret = { 'anger': anger, 'disgust': disgust,
+    # construct dictionary for return value    
+    ret = { 'anger': anger, 'disgust': disgust,
             'fear': fear, 'joy': joy, 'sadness': sadness,
-        'dominant_emotion': dname}
-    retuet
+            'dominant_emotion': dname}
+    return ret
              
